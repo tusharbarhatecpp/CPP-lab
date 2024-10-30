@@ -1,0 +1,16 @@
+This is C++ program it writes text to a file named cpp.txt.
+First, it uses ofstream to open the file for writing, creating it if it doesn’t already exist.
+ Secodn, #inculde<iostream> Header file for input output operation
+fstream opens the file in both read and write mode.
+using namespace std; It is a template for global declaration
+cin>> it is console input.
+It then checks if the file is open and, if so, writes two lines of text: "Hello, World!" and "This is a text file in C++.
+After writing, the program closes the file to ensure data is saved properly.
+cout<< it is console output
+If everything works, it displays "Data written to file successfully"; otherwise, it shows an error message indicating the file couldn’t be opened.
+{   } This is Curly braces
+While it sets up these file streams, it doesn't perform any actual reading or writing, so it just shows how to initialize file streams with different modes.
+Return 0; It is function return NULL value.
+
+Output:	
+Data written to file successfully.

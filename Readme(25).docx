@@ -1,0 +1,16 @@
+This is a C++ program it creates a simple structure called Data with an id and a name.
+This program makes an instance of Data with sample values and opens a file called "data.bin" to write in binary format.
+I am using #inculde<iostream> Header file for input output operation
+using namespace std; It is a template for global declaration.
+If the file opens correctly, the program writes the data of Data to the file and then closes it.
+cin>> it is console input.
+cout<< it is console output
+It displays a message saying whether the file was written successfully or if there was an error opening it.
+{   } This is Curly braces
+This method saves the data in binary format, making it quick to read and write.
+Return 0; It is function return NULL value
+
+Output:	
+Data written successfully to binary file.
+File name: data.bin 
+****Tushar**********************
